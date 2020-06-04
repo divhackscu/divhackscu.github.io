@@ -1,1 +1,138 @@
+body {
+  background-color: #f8f8f8;
+  font-family: 'Roboto', sans serif;
+  font-weight: 100;
+}
 
+#newpage1 {
+  width: 100%;
+  height: 600px;
+  background-color: #f8f8f8;
+  color: #222;
+}
+
+#newpage2 {
+  width: 100%;
+  height: 600px;
+  background-color: #222;
+  color: #f8f8f8;
+}
+
+.titlepage {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  width: 400px;
+  background-color: #222;
+  text-align: center;
+}
+
+.dh {
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: 400;
+  font-size: 5em;
+  margin-top: -30px;
+  color: #f8f8f8;
+  text-shadow: 0px 0px 10px #999;
+}
+
+.dh .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.025em;
+  padding-right: 0.025em;
+  padding-bottom: 0.0375em;
+}
+
+.dh .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #bf3030;
+  transform-origin: 0 50%;
+}
+
+.dh .line1 { 
+  top: 0; 
+  left: 0;
+}
+
+.dh .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.date {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 400px;
+  text-align: center;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 1.5em;
+}
+
+.presents {
+  margin-left: -225px;
+  color: #f8f8f8;
+  opacity: 0;
+  width: auto;
+  font-family: 'Roboto', sans serif;
+  font-weight: 100;
+  font-size: 2em;
+  transform-origin: 0 50%;
+}
+
+.sub {
+  opacity: 0;
+  color: #f8f8f8;
+  margin-top: -50px;
+  margin-left: 200px;
+  font-family: 'Roboto', sans serif;
+  font-weight: 100;
+  font-size: 2em;
+  transform-origin: 0 50%;
+}
+
+.register {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 400px;
+  text-align: center;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 1.5em;
+}
+
+.register a {
+  color: #222;
+  text-decoration: none;
+}
+
+.register a:hover {
+  color: #bf3030;
+  text-decoration: none;
+}
+
+.aboutpage {
+  padding: 50px;
+  text-align: left;
+}
+
+.pagetitle {
+  padding: 3px;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 3em;
+  background: linear-gradient(to top, #bf3030 50%, transparent 50%);
+}
+
+.bodytext {
+  padding: 10px;
+  font-size: 1.5em;
+  min-width: 400px;
+  width: 50%;
+  line-height: 125%;
+}
