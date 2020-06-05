@@ -2,18 +2,19 @@ body {
   background-color: #f8f8f8;
   font-family: 'Roboto', sans serif;
   font-weight: 100;
+  font-size: 16px;
 }
 
 #newpage1 {
   width: 100%;
-  height: 600px;
+  height: 600px!important;
   background-color: #f8f8f8;
   color: #222;
 }
 
 #newpage2 {
   width: 100%;
-  height: 600px;
+  height: 600px!important;
   background-color: #222;
   color: #f8f8f8;
 }
@@ -135,4 +136,30 @@ body {
   min-width: 400px;
   width: 50%;
   line-height: 125%;
+}
+
+.schedulepage {
+  padding: 50px;
+  text-align: left;
+}
+
+.sponsorspage {
+  padding: 50px;
+  text-align: left;
+}
+
+.speakerspage {
+  padding: 50px;
+}
+
+.prizespage {
+  padding: 50px;
+}
+
+.faqpage {
+  padding: 50px;
+}
+
+.contactpage {
+  padding: 50px;
 }
